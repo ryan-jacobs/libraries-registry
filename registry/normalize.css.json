@@ -1,0 +1,14 @@
+{
+    "name": "Normalize CSS",
+    "vendor url": "https:\/\/github.com\/necolas\/normalize.css\/",
+    "download url": "https:\/\/github.com\/necolas\/normalize.css\/",
+    "version arguments": {
+        "file": "normalize.css",
+        "pattern": "\/normalize.css v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "css": [
+            "normalize.css"
+        ]
+    }
+}

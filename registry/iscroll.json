@@ -1,0 +1,9 @@
+{
+    "name": "iScroll",
+    "vendor url": "https:\/\/github.com\/cubiq\/iscroll",
+    "download url": "https:\/\/github.com\/cubiq\/iscroll\/zipball\/master",
+    "version arguments": {
+        "file": "build\/iscroll.js",
+        "pattern": "\/iScroll v([0-9a-zA-Z\\.-]+)\/"
+    }
+}

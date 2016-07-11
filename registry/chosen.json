@@ -1,0 +1,29 @@
+{
+    "name": "jQuery Chosen",
+    "vendor url": "http:\/\/harvesthq.github.com\/chosen\/",
+    "download url": "https:\/\/github.com\/harvesthq\/chosen\/releases\/latest",
+    "version arguments": {
+        "file": "chosen.jquery.js",
+        "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "chosen.jquery.js"
+        ],
+        "css": [
+            "chosen.css"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "chosen.jquery.min.js"
+                ],
+                "css": [
+                    "chosen.css"
+                ]
+            }
+        }
+    }
+}

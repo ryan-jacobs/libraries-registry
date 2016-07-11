@@ -1,0 +1,17 @@
+{
+    "name": "jquery-selectBox",
+    "vendor url": "https:\/\/github.com\/marcj\/jquery-selectBox",
+    "download url": "https:\/\/github.com\/marcj\/jquery-selectBox",
+    "version arguments": {
+        "file": "jquery.selectBox.js",
+        "pattern": "\/\\* v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "jquery.selectBox.js"
+        ],
+        "css": [
+            "jquery.selectBox.css"
+        ]
+    }
+}

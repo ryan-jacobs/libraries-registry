@@ -1,0 +1,29 @@
+{
+    "name": "Formalize",
+    "vendor url": "https:\/\/github.com\/nathansmith\/formalize",
+    "download url": "https:\/\/github.com\/nathansmith\/formalize\/zipball\/master",
+    "version arguments": {
+        "file": "assets\/js\/jquery.formalize.js",
+        "pattern": "\/Formalize - version ([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "css": [
+            "assets\/css\/formalize.css"
+        ],
+        "js": [
+            "assets\/js\/jquery.formalize.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "assets\/js\/jquery.formalize.min.js"
+                ],
+                "css": [
+                    "assets\/css\/formalize.css"
+                ]
+            }
+        }
+    }
+}

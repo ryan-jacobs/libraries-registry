@@ -1,0 +1,14 @@
+{
+    "name": "jQuery Hover Intent",
+    "vendor url": "https:\/\/github.com\/briancherne\/jquery-hoverIntent",
+    "download url": "https:\/\/github.com\/briancherne\/jquery-hoverIntent\/zipball\/master",
+    "version arguments": {
+        "file": "jquery.hoverIntent.js",
+        "pattern": "\/hoverIntent v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "jquery.hoverIntent.js"
+        ]
+    }
+}

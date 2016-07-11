@@ -1,0 +1,24 @@
+{
+    "name": "classList.js",
+    "vendor url": "https:\/\/github.com\/eligrey\/classList.js",
+    "download url": "https:\/\/github.com\/eligrey\/classList.js",
+    "version callback": "_library_pack_force_version",
+    "version arguments": {
+        "file": "classList.js",
+        "force": "1"
+    },
+    "files": {
+        "js": [
+            "classList.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "classList.min.js"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Juicebox",
+    "vendor url": "http:\/\/www.juicebox.net\/",
+    "download url": "http:\/\/www.juicebox.net\/download\/",
+    "version arguments": {
+        "file": "juicebox.js",
+        "pattern": "\/Juicebox.([a-zA-Z]+[0-9\\.\\ -]+)\/",
+        "lines": 5
+    },
+    "files": {
+        "js": {
+            "juicebox.js": {
+                "preprocess": false,
+                "group": -100
+            }
+        }
+    },
+    "callbacks": {
+        "info": [
+            "juicebox_library_add_info"
+        ],
+        "post-detect": [
+            "juicebox_library_post_detect"
+        ]
+    }
+}

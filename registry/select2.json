@@ -1,0 +1,29 @@
+{
+    "name": "Select 2",
+    "vendor url": "http:\/\/ivaynberg.github.com\/select2\/",
+    "download url": "https:\/\/github.com\/ivaynberg\/select2\/zipball\/master",
+    "version arguments": {
+        "file": "dist\/js\/select2.js",
+        "pattern": "\/Select2 ([@0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "dist\/js\/select2.js"
+        ],
+        "css": [
+            "dist\/css\/select2.css"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "dist\/js\/select2.min.js"
+                ],
+                "css": [
+                    "dist\/css\/select2.css"
+                ]
+            }
+        }
+    }
+}

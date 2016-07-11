@@ -1,0 +1,14 @@
+{
+    "name": "jQuery Timeago",
+    "vendor url": "http:\/\/timeago.yarp.com\/jquery.timeago.js",
+    "download url": "http:\/\/timeago.yarp.com\/jquery.timeago.js",
+    "version arguments": {
+        "file": "jquery.timeago.js",
+        "pattern": "\/@version ([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "jquery.timeago.js"
+        ]
+    }
+}

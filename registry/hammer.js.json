@@ -1,0 +1,14 @@
+{
+    "name": "Hammer JS",
+    "vendor url": "https:\/\/github.com\/eightmedia\/hammer.js",
+    "download url": "https:\/\/github.com\/EightMedia\/hammer.js\/zipball\/master",
+    "version arguments": {
+        "file": "hammer.js",
+        "pattern": "\/- v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "hammer.js"
+        ]
+    }
+}

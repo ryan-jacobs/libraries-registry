@@ -1,0 +1,15 @@
+{
+    "name": "lessphp",
+    "vendor url": "http:\/\/leafo.net\/lessphp\/",
+    "download url": "http:\/\/leafo.net\/lessphp\/",
+    "version arguments": {
+        "file": "lessc.inc.php",
+        "pattern": "\/lessphp v([0-9a-zA-Z\\.-]+)\/",
+        "lines": 50
+    },
+    "files": {
+        "php": [
+            "lessc.inc.php"
+        ]
+    }
+}

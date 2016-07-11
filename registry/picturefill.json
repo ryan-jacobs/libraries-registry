@@ -1,0 +1,23 @@
+{
+    "name": "picturefill",
+    "vendor url": "https:\/\/github.com\/scottjehl\/picturefill",
+    "download url": "https:\/\/github.com\/scottjehl\/picturefill",
+    "version arguments": {
+        "file": "dist\/picturefill.js",
+        "pattern": "\/Picturefill - v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "dist\/picturefill.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "dist\/picturefill.min.js"
+                ]
+            }
+        }
+    }
+}

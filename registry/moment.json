@@ -1,0 +1,14 @@
+{
+    "name": "Moment JS",
+    "vendor url": "http:\/\/momentjs.com\/",
+    "download url": "https:\/\/github.com\/moment\/moment\/",
+    "version arguments": {
+        "file": "moment.js",
+        "pattern": "\/version : ([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "moment.js"
+        ]
+    }
+}

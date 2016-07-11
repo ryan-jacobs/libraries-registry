@@ -1,0 +1,29 @@
+{
+    "name": "jScrollPane",
+    "vendor url": "https:\/\/github.com\/vitch\/jScrollPane",
+    "download url": "https:\/\/github.com\/vitch\/jScrollPane",
+    "version arguments": {
+        "file": "script\/jquery.jscrollpane.js",
+        "pattern": "\/jScrollPane - v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "script\/jquery.jscrollpane.js"
+        ],
+        "css": [
+            "script\/jquery.jscrollpane.css"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "script\/jquery.jscrollpane.min.js"
+                ],
+                "css": [
+                    "script\/jquery.jscrollpane.css"
+                ]
+            }
+        }
+    }
+}

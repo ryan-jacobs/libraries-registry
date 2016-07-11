@@ -1,0 +1,30 @@
+{
+    "name": "Enquire JS",
+    "vendor url": "https:\/\/github.com\/WickyNilliams\/enquire.js",
+    "download url": "https:\/\/github.com\/WickyNilliams\/enquire.js",
+    "version arguments": {
+        "file": "dist\/enquire.js",
+        "pattern": "\/enquire.js v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": {
+            "dist\/enquire.js": {
+                "every_page": true,
+                "group": -100,
+                "preprocess": 0,
+                "scope": "header",
+                "type": "file",
+                "weight": -9999
+            }
+        }
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "dist\/enquire.min.js"
+                ]
+            }
+        }
+    }
+}

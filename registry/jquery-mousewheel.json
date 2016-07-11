@@ -1,0 +1,23 @@
+{
+    "name": "jquery-mousewheel",
+    "vendor url": "https:\/\/github.com\/jquery\/jquery-mousewheel",
+    "download url": "https:\/\/github.com\/jquery\/jquery-mousewheel",
+    "version arguments": {
+        "file": "package.json",
+        "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "jquery.mousewheel.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "jquery.mousewheel.min.js"
+                ]
+            }
+        }
+    }
+}

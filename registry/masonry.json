@@ -1,0 +1,14 @@
+{
+    "name": "jQuery Masonry",
+    "vendor url": "https:\/\/github.com\/desandro\/masonry",
+    "download url": "https:\/\/github.com\/desandro\/masonry\/zipball\/master",
+    "version arguments": {
+        "file": "dist\/masonry.pkgd.js",
+        "pattern": "\/PACKAGED v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "dist\/masonry.pkgd.js"
+        ]
+    }
+}

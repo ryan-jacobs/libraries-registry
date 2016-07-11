@@ -1,0 +1,23 @@
+{
+    "name": "jQuery Lodash",
+    "vendor url": "https:\/\/github.com\/desandro\/lodash",
+    "download url": "https:\/\/github.com\/lodash\/lodash\/zipball\/master",
+    "version arguments": {
+        "file": "dist\/lodash.js",
+        "pattern": "\/lodash ([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "lodash.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "lodash.min.js"
+                ]
+            }
+        }
+    }
+}

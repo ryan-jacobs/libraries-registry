@@ -1,0 +1,23 @@
+{
+    "name": "Jcrop",
+    "vendor url": "https:\/\/github.com\/tapmodo\/Jcrop",
+    "download url": "https:\/\/github.com\/tapmodo\/Jcrop",
+    "version arguments": {
+        "file": "js\/jquery.Jcrop.js",
+        "pattern": "\/jquery.Jcrop.js v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "js\/jquery.Jcrop.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "js\/jquery.Jcrop.min.js"
+                ]
+            }
+        }
+    }
+}

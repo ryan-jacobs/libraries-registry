@@ -1,0 +1,30 @@
+{
+    "name": "jQuery slicknav",
+    "vendor url": "https:\/\/github.com\/ComputerWolf\/SlickNav",
+    "download url": "https:\/\/github.com\/ComputerWolf\/SlickNav",
+    "version callback": "_library_pack_force_version",
+    "version arguments": {
+        "file": "jquery.slicknav.js",
+        "force": "0.0.1"
+    },
+    "files": {
+        "js": [
+            "jquery.slicknav.js"
+        ],
+        "css": [
+            "slicknav.css"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "jquery.slicknav.min.js"
+                ],
+                "css": [
+                    "slicknav.css"
+                ]
+            }
+        }
+    }
+}

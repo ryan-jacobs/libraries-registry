@@ -1,0 +1,14 @@
+{
+    "name": "jQuery Cycle",
+    "vendor url": "https:\/\/github.com\/malsup\/cycle",
+    "download url": "https:\/\/github.com\/malsup\/cycle",
+    "version arguments": {
+        "file": "jquery.cycle.all.js",
+        "pattern": "\/Version: ([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "jquery.cycle.all.js"
+        ]
+    }
+}

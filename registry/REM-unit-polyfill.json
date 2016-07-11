@@ -1,0 +1,23 @@
+{
+    "name": "REM-unit-polyfill",
+    "vendor url": "https:\/\/github.com\/chuckcarpenter\/REM-unit-polyfill.git",
+    "download url": "https:\/\/github.com\/chuckcarpenter\/REM-unit-polyfill.git",
+    "version arguments": {
+        "file": "bower.json",
+        "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "js\/rem.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "js\/rem.min.js"
+                ]
+            }
+        }
+    }
+}

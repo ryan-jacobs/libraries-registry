@@ -1,0 +1,14 @@
+{
+    "name": "Isotope",
+    "vendor url": "https:\/\/github.com\/desandro\/isotope",
+    "download url": "https:\/\/github.com\/desandro\/isotope\/zipball\/master",
+    "version arguments": {
+        "file": "dist\/isotope.pkgd.js",
+        "pattern": "\/PACKAGED v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "dist\/isotope.pkgd.js"
+        ]
+    }
+}

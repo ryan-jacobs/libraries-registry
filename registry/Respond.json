@@ -1,0 +1,15 @@
+{
+    "name": "Respond",
+    "vendor url": "https:\/\/github.com\/scottjehl\/Respond",
+    "download url": "https:\/\/github.com\/scottjehl\/Respond",
+    "version callback": "_library_pack_force_version",
+    "version arguments": {
+        "file": "src\/respond.js",
+        "force": "1"
+    },
+    "files": {
+        "js": [
+            "src\/respond.js"
+        ]
+    }
+}

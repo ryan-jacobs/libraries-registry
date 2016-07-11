@@ -1,0 +1,23 @@
+{
+    "name": "mustache.js",
+    "vendor url": "https:\/\/github.com\/janl\/mustache.js",
+    "download url": "https:\/\/github.com\/janl\/mustache.js",
+    "version arguments": {
+        "file": "package.json",
+        "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "mustache.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "mustache.min.js"
+                ]
+            }
+        }
+    }
+}

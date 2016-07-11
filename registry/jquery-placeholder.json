@@ -1,0 +1,23 @@
+{
+    "name": "jQuery Placeholder",
+    "vendor url": "http:\/\/mths.be\/placeholder",
+    "download url": "https:\/\/github.com\/mathiasbynens\/jquery-placeholder",
+    "version arguments": {
+        "file": "jquery.placeholder.js",
+        "pattern": "\/placeholder v([0-9a-zA-Z\\.-]+)\/"
+    },
+    "files": {
+        "js": [
+            "jquery.placeholder.js"
+        ]
+    },
+    "variants": {
+        "minified": {
+            "files": {
+                "js": [
+                    "jquery.placeholder.min.js"
+                ]
+            }
+        }
+    }
+}

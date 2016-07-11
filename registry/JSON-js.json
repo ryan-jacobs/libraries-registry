@@ -1,0 +1,15 @@
+{
+    "name": "JSON-js",
+    "vendor url": "http:\/\/github.com\/douglascrockford\/JSON-js",
+    "download url": "http:\/\/github.com\/douglascrockford\/JSON-js",
+    "version callback": "_library_pack_force_version",
+    "version arguments": {
+        "file": "json2.js",
+        "force": "1"
+    },
+    "files": {
+        "js": [
+            "json2.js"
+        ]
+    }
+}
