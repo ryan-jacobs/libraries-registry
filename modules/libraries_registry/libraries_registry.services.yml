@@ -1,0 +1,6 @@
+services:
+  stream_wrapper.library_registry:
+    class: Drupal\libraries_registry\StreamWrapper\LibraryRegistryStream
+    arguments: ['@config.factory']
+    tags:
+      - { name: stream_wrapper, scheme: 'library-registry' }

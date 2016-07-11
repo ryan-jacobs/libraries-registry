@@ -1,0 +1,7 @@
+name: Libraries Registry Serializer
+type: module
+description: A tool to help serialize library definitions for the Libraries API module (for admin use and debugging).
+core: 8.x
+dependencies:
+  - serialization
+  - libraries

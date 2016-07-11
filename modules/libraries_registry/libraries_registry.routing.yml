@@ -1,0 +1,7 @@
+libraries_registry.processing_form:
+  path: '/admin/config/development/libraries-registry'
+  defaults:
+    _form: '\Drupal\libraries_registry\Form\ProcessingForm'
+    _title: 'Libraries Registry'
+  requirements:
+    _permission: 'administer site configuration'

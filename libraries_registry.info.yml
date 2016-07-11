@@ -1,4 +1,0 @@
-name: Libraries Registry
-type: module
-description: Central registry of library definitions for the Libraries API module (for admin use and debugging).
-core: 8.x

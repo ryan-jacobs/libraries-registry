@@ -1,0 +1,5 @@
+libraries_registry.processing_form:
+  title: 'Seralize Libraries Registry Entries'
+  description: 'Seralize Libraries Registry Entries.'
+  parent: system.admin_config_development
+  route_name: libraries_registry.processing_form
