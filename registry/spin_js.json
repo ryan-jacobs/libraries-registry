@@ -1,4 +1,6 @@
 {
+    "id": "spin_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Spin JS",
     "vendor url": "https:\/\/github.com\/fgnass\/spin.js",
     "download url": "https:\/\/github.com\/fgnass\/spin.js",

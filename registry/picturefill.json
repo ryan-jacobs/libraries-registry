@@ -1,4 +1,6 @@
 {
+    "id": "picturefill",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "picturefill",
     "vendor url": "https:\/\/github.com\/scottjehl\/picturefill",
     "download url": "https:\/\/github.com\/scottjehl\/picturefill",

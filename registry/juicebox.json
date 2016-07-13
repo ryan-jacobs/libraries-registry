@@ -1,4 +1,6 @@
 {
+    "id": "juicebox",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Juicebox",
     "vendor url": "http:\/\/www.juicebox.net\/",
     "download url": "http:\/\/www.juicebox.net\/download\/",
@@ -14,13 +16,5 @@
                 "group": -100
             }
         }
-    },
-    "callbacks": {
-        "info": [
-            "juicebox_library_add_info"
-        ],
-        "post-detect": [
-            "juicebox_library_post_detect"
-        ]
     }
 }

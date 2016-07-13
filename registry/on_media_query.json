@@ -1,4 +1,6 @@
 {
+    "id": "on_media_query",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "On Media Query",
     "vendor url": "https:\/\/github.com\/JoshBarr\/on-media-query",
     "download url": "https:\/\/github.com\/JoshBarr\/on-media-query",

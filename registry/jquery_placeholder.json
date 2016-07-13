@@ -1,4 +1,6 @@
 {
+    "id": "jquery_placeholder",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery Placeholder",
     "vendor url": "http:\/\/mths.be\/placeholder",
     "download url": "https:\/\/github.com\/mathiasbynens\/jquery-placeholder",

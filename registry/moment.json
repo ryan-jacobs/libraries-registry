@@ -1,4 +1,6 @@
 {
+    "id": "moment",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Moment JS",
     "vendor url": "http:\/\/momentjs.com\/",
     "download url": "https:\/\/github.com\/moment\/moment\/",

@@ -1,4 +1,6 @@
 {
+    "id": "select2",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Select 2",
     "vendor url": "http:\/\/ivaynberg.github.com\/select2\/",
     "download url": "https:\/\/github.com\/ivaynberg\/select2\/zipball\/master",

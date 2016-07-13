@@ -1,4 +1,6 @@
 {
+    "id": "bootstrap",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Twitter Bootstrap",
     "vendor url": "http:\/\/twitter.github.com",
     "download url": "http:\/\/twitter.github.com\/bootstrap\/assets\/bootstrap.zip",

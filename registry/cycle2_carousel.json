@@ -1,4 +1,6 @@
 {
+    "id": "cycle2_carousel",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery Cycle2",
     "vendor url": "http:\/\/jquery.malsup.com\/cycle2",
     "download url": "http:\/\/jquery.malsup.com\/cycle2\/download\/",

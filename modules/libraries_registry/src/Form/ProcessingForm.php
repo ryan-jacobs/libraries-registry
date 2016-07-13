@@ -102,8 +102,13 @@ class ProcessingForm extends FormBase {
    *   altered.
    */
   protected function preSerializeAlter(&$library_name, array &$library_data) {
-    // @todo: Make common programmatic changes to library data to support D8
-    // structures.
+    // Get an id based on library name. We'll also use this as the raw filename.
+    $id = strtolower(preg_replace('/[^0-9a-zA-Z]/', '_', $library_name));
+    $library_name = $id;
+    // Add an id and a class to the data (assume an asset library for now).
+    $library_data = array('id' => $id, 'class' => 'Drupal\libraries\ExternalLibrary\Asset\AssetLibrary') + $library_data;
+    // Callbacks are likely no longer relevant.
+    unset($library_data['callbacks']);
   }
 
   /**

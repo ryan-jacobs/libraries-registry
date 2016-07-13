@@ -1,4 +1,6 @@
 {
+    "id": "iscroll",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "iScroll",
     "vendor url": "https:\/\/github.com\/cubiq\/iscroll",
     "download url": "https:\/\/github.com\/cubiq\/iscroll\/zipball\/master",

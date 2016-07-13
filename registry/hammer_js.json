@@ -1,4 +1,6 @@
 {
+    "id": "hammer_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Hammer JS",
     "vendor url": "https:\/\/github.com\/eightmedia\/hammer.js",
     "download url": "https:\/\/github.com\/EightMedia\/hammer.js\/zipball\/master",

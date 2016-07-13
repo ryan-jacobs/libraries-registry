@@ -1,4 +1,6 @@
 {
+    "id": "lodash",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery Lodash",
     "vendor url": "https:\/\/github.com\/desandro\/lodash",
     "download url": "https:\/\/github.com\/lodash\/lodash\/zipball\/master",

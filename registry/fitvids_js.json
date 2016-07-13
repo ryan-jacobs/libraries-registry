@@ -1,4 +1,6 @@
 {
+    "id": "fitvids_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "FtiVids JS",
     "vendor url": "http:\/\/fitvidsjs.com",
     "download url": "https:\/\/github.com\/davatron5000\/FitVids.js",

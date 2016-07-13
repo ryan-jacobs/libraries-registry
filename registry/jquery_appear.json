@@ -1,4 +1,6 @@
 {
+    "id": "jquery_appear",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery Appear",
     "vendor url": "https:\/\/github.com\/morr\/jquery.appear",
     "download url": "https:\/\/github.com\/morr\/jquery.appear\/archive\/master.zip",

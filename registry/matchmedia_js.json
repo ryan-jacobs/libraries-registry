@@ -1,4 +1,6 @@
 {
+    "id": "matchmedia_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "matchMedia.js",
     "vendor url": "https:\/\/github.com\/paulirish\/matchMedia.js",
     "download url": "https:\/\/github.com\/paulirish\/matchMedia.js",

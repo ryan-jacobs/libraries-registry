@@ -1,4 +1,6 @@
 {
+    "id": "json_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "JSON-js",
     "vendor url": "http:\/\/github.com\/douglascrockford\/JSON-js",
     "download url": "http:\/\/github.com\/douglascrockford\/JSON-js",
