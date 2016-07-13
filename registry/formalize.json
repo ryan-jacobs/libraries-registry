@@ -1,4 +1,6 @@
 {
+    "id": "formalize",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Formalize",
     "vendor url": "https:\/\/github.com\/nathansmith\/formalize",
     "download url": "https:\/\/github.com\/nathansmith\/formalize\/zipball\/master",

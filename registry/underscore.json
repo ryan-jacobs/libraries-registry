@@ -1,4 +1,6 @@
 {
+    "id": "underscore",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Underscore",
     "vendor url": "https:\/\/github.com\/documentcloud\/underscore",
     "download url": "https:\/\/github.com\/documentcloud\/underscore\/zipball\/master",

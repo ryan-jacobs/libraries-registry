@@ -1,4 +1,6 @@
 {
+    "id": "rem_unit_polyfill",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "REM-unit-polyfill",
     "vendor url": "https:\/\/github.com\/chuckcarpenter\/REM-unit-polyfill.git",
     "download url": "https:\/\/github.com\/chuckcarpenter\/REM-unit-polyfill.git",

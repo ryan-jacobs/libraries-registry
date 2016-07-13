@@ -1,4 +1,6 @@
 {
+    "id": "newsticker",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jquery.newsticker",
     "vendor url": "http:\/\/makemineatriple.com\/newsticker#download",
     "download url": "http:\/\/makemineatriple.com\/newsticker#download",

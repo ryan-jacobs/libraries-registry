@@ -1,4 +1,6 @@
 {
+    "id": "normalize_css",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Normalize CSS",
     "vendor url": "https:\/\/github.com\/necolas\/normalize.css\/",
     "download url": "https:\/\/github.com\/necolas\/normalize.css\/",

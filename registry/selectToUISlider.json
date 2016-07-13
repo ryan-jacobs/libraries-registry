@@ -1,4 +1,6 @@
 {
+    "id": "selecttouislider",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery Select To UI Slider",
     "vendor url": "http:\/\/www.filamentgroup.com\/examples\/slider_v2\/FilamentGroup_selectToUISlider.zip",
     "download url": "http:\/\/www.filamentgroup.com\/examples\/slider_v2\/FilamentGroup_selectToUISlider.zip",

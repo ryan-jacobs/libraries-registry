@@ -1,4 +1,6 @@
 {
+    "id": "fittext_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "FitText JS",
     "vendor url": "http:\/\/FitTextjs.com",
     "download url": "https:\/\/github.com\/davatron5000\/FitText.js",

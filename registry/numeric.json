@@ -1,4 +1,6 @@
 {
+    "id": "numeric",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jquery.numeric.js",
     "vendor url": "http:\/\/www.texotela.co.uk\/code\/jquery\/numeric\/",
     "download url": "https:\/\/github.com\/SamWM\/jQuery-Plugins\/tree\/master\/numeric",

@@ -1,4 +1,6 @@
 {
+    "id": "tablesaw",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Tablesaw",
     "vendor url": "https:\/\/github.com\/filamentgroup\/tablesaw",
     "download url": "https:\/\/github.com\/filamentgroup\/tablesaw",

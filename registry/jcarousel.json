@@ -1,4 +1,6 @@
 {
+    "id": "jcarousel",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery jcarousel",
     "vendor url": "http:\/\/sorgalla.com\/jcarousel\/",
     "download url": "https:\/\/github.com\/jsor\/jcarousel",

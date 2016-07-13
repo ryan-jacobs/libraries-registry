@@ -1,4 +1,6 @@
 {
+    "id": "classlist_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "classList.js",
     "vendor url": "https:\/\/github.com\/eligrey\/classList.js",
     "download url": "https:\/\/github.com\/eligrey\/classList.js",

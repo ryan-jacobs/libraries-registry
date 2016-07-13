@@ -1,4 +1,6 @@
 {
+    "id": "history_js",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "History.js",
     "vendor url": "https:\/\/github.com\/browserstate\/history.js",
     "download url": "https:\/\/github.com\/browserstate\/history.js\/zipball\/master",

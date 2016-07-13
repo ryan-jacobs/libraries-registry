@@ -1,4 +1,6 @@
 {
+    "id": "jquery_timeago",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery Timeago",
     "vendor url": "http:\/\/timeago.yarp.com\/jquery.timeago.js",
     "download url": "http:\/\/timeago.yarp.com\/jquery.timeago.js",

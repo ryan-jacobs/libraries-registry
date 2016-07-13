@@ -1,4 +1,6 @@
 {
+    "id": "slicknav",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jQuery slicknav",
     "vendor url": "https:\/\/github.com\/ComputerWolf\/SlickNav",
     "download url": "https:\/\/github.com\/ComputerWolf\/SlickNav",

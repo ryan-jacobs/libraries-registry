@@ -1,4 +1,6 @@
 {
+    "id": "jquery_mousewheel",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "jquery-mousewheel",
     "vendor url": "https:\/\/github.com\/jquery\/jquery-mousewheel",
     "download url": "https:\/\/github.com\/jquery\/jquery-mousewheel",

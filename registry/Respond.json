@@ -1,4 +1,6 @@
 {
+    "id": "respond",
+    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
     "name": "Respond",
     "vendor url": "https:\/\/github.com\/scottjehl\/Respond",
     "download url": "https:\/\/github.com\/scottjehl\/Respond",
