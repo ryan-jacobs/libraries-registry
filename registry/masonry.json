@@ -1,6 +1,5 @@
 {
-    "id": "masonry",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Masonry",
     "vendor url": "https:\/\/github.com\/desandro\/masonry",
     "download url": "https:\/\/github.com\/desandro\/masonry\/zipball\/master",

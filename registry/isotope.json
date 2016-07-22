@@ -1,6 +1,5 @@
 {
-    "id": "isotope",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "Isotope",
     "vendor url": "https:\/\/github.com\/desandro\/isotope",
     "download url": "https:\/\/github.com\/desandro\/isotope\/zipball\/master",

@@ -1,6 +1,5 @@
 {
-    "id": "moment",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "Moment JS",
     "vendor url": "http:\/\/momentjs.com\/",
     "download url": "https:\/\/github.com\/moment\/moment\/",

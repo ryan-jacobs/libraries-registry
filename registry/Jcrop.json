@@ -1,6 +1,5 @@
 {
-    "id": "jcrop",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "Jcrop",
     "vendor url": "https:\/\/github.com\/tapmodo\/Jcrop",
     "download url": "https:\/\/github.com\/tapmodo\/Jcrop",

@@ -1,6 +1,5 @@
 {
-    "id": "lessphp",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "lessphp",
     "vendor url": "http:\/\/leafo.net\/lessphp\/",
     "download url": "http:\/\/leafo.net\/lessphp\/",

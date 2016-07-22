@@ -1,6 +1,5 @@
 {
-    "id": "cycle",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Cycle",
     "vendor url": "https:\/\/github.com\/malsup\/cycle",
     "download url": "https:\/\/github.com\/malsup\/cycle",

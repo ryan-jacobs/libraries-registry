@@ -1,6 +1,5 @@
 {
-    "id": "mustache_js",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "mustache.js",
     "vendor url": "https:\/\/github.com\/janl\/mustache.js",
     "download url": "https:\/\/github.com\/janl\/mustache.js",

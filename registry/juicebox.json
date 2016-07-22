@@ -1,6 +1,5 @@
 {
-    "id": "juicebox",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "Juicebox",
     "vendor url": "http:\/\/www.juicebox.net\/",
     "download url": "http:\/\/www.juicebox.net\/download\/",

@@ -1,6 +1,5 @@
 {
-    "id": "qtip2",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Qtip2",
     "vendor url": "https:\/\/github.com\/Craga89\/qTip2",
     "download url": "https:\/\/github.com\/Craga89\/qTip2\/zipball\/master",

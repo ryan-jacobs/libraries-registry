@@ -1,6 +1,5 @@
 {
-    "id": "flexnav",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery flexnav",
     "vendor url": "https:\/\/github.com\/indyplanets\/flexnav",
     "download url": "https:\/\/github.com\/indyplanets\/flexnav",

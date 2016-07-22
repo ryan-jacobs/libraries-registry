@@ -1,6 +1,5 @@
 {
-    "id": "jquery_browser_plugin",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Browser Plugin",
     "vendor url": "https:\/\/github.com\/gabceb\/jquery-browser-plugin",
     "download url": "https:\/\/github.com\/gabceb\/jquery-browser-plugin",

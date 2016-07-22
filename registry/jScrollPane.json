@@ -1,6 +1,5 @@
 {
-    "id": "jscrollpane",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jScrollPane",
     "vendor url": "https:\/\/github.com\/vitch\/jScrollPane",
     "download url": "https:\/\/github.com\/vitch\/jScrollPane",

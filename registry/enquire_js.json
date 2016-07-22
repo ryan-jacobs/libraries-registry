@@ -1,6 +1,5 @@
 {
-    "id": "enquire_js",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "Enquire JS",
     "vendor url": "https:\/\/github.com\/WickyNilliams\/enquire.js",
     "download url": "https:\/\/github.com\/WickyNilliams\/enquire.js",

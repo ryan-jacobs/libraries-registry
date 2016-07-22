@@ -1,6 +1,5 @@
 {
-    "id": "colorpicker",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "colorpicker",
     "vendor url": "http:\/\/www.eyecon.ro\/colorpicker",
     "download url": "http:\/\/www.eyecon.ro\/colorpicker\/colorpicker.zip",

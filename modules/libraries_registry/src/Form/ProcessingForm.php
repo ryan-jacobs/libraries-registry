@@ -81,6 +81,8 @@ class ProcessingForm extends FormBase {
     $saved_count = 0;
     foreach ($libraries_info as $library_name => $data) {
       $this->preSerializeAlter($library_name, $data);
+      // @todo: Switch to YAML
+      // @see https://www.drupal.org/node/1897612
       $serialized = $this->serializer->serialize($data, 'json', ['json_encode_options' => JSON_PRETTY_PRINT]);
       if ($serialized) {
         $this->postSerializeAlter($library_name, $serialized);
@@ -105,8 +107,8 @@ class ProcessingForm extends FormBase {
     // Get an id based on library name. We'll also use this as the raw filename.
     $id = strtolower(preg_replace('/[^0-9a-zA-Z]/', '_', $library_name));
     $library_name = $id;
-    // Add an id and a class to the data (assume an asset library for now).
-    $library_data = array('id' => $id, 'class' => 'Drupal\libraries\ExternalLibrary\Asset\AssetLibrary') + $library_data;
+    // Add a type to the data (assume an asset library for now).
+    $library_data = array('type' => 'asset') + $library_data;
     // Callbacks are likely no longer relevant.
     unset($library_data['callbacks']);
   }

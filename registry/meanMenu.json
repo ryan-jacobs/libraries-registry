@@ -1,6 +1,5 @@
 {
-    "id": "meanmenu",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "meanMenu",
     "vendor url": "https:\/\/github.com\/meanthemes\/meanMenu",
     "download url": "https:\/\/github.com\/meanthemes\/meanMenu",

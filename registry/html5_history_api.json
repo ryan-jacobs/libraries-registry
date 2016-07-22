@@ -1,6 +1,5 @@
 {
-    "id": "html5_history_api",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "HTML5-History-API",
     "vendor url": "https:\/\/github.com\/devote\/HTML5-History-API",
     "download url": "https:\/\/github.com\/devote\/HTML5-History-API\/zipball\/master",

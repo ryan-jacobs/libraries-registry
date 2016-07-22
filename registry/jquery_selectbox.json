@@ -1,6 +1,5 @@
 {
-    "id": "jquery_selectbox",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jquery-selectBox",
     "vendor url": "https:\/\/github.com\/marcj\/jquery-selectBox",
     "download url": "https:\/\/github.com\/marcj\/jquery-selectBox",

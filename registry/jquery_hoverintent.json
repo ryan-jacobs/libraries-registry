@@ -1,6 +1,5 @@
 {
-    "id": "jquery_hoverintent",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Hover Intent",
     "vendor url": "https:\/\/github.com\/briancherne\/jquery-hoverIntent",
     "download url": "https:\/\/github.com\/briancherne\/jquery-hoverIntent\/zipball\/master",

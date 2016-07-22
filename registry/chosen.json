@@ -1,6 +1,5 @@
 {
-    "id": "chosen",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Chosen",
     "vendor url": "http:\/\/harvesthq.github.com\/chosen\/",
     "download url": "https:\/\/github.com\/harvesthq\/chosen\/releases\/latest",

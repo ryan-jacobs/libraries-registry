@@ -1,6 +1,5 @@
 {
-    "id": "selectivizr",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "selectivizr",
     "vendor url": "https:\/\/github.com\/keithclark\/selectivizr",
     "download url": "https:\/\/github.com\/keithclark\/selectivizr",

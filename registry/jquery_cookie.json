@@ -1,6 +1,5 @@
 {
-    "id": "jquery_cookie",
-    "class": "Drupal\\libraries\\ExternalLibrary\\Asset\\AssetLibrary",
+    "type": "asset",
     "name": "jQuery Cookie",
     "vendor url": "https:\/\/github.com\/carhartl\/jquery-cookie",
     "download url": "https:\/\/github.com\/carhartl\/jquery-cookie\/archive\/master.zip",
