@@ -7,18 +7,14 @@
         "file": "jquery.cycle2.carousel.js",
         "pattern": "\/version: ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "jquery.cycle2.carousel.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "jquery.cycle2.carousel.min.js"
-                ]
-            }
+            "js": [
+                "jquery.cycle2.carousel.min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "jquery.cycle2.carousel.js"
+    ]
 }

@@ -7,18 +7,14 @@
         "file": "dist\/lodash.js",
         "pattern": "\/lodash ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "lodash.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "lodash.min.js"
-                ]
-            }
+            "js": [
+                "lodash.min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "lodash.js"
+    ]
 }

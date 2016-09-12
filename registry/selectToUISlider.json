@@ -8,12 +8,12 @@
         "file": "js\/selectToUISlider.jQuery.js",
         "force": "1.0"
     },
-    "files": {
-        "js": [
-            "js\/selectToUISlider.jQuery.js"
-        ],
-        "css": [
+    "css": {
+        "base": [
             "css\/ui.slider.extras.css"
         ]
-    }
+    },
+    "js": [
+        "js\/selectToUISlider.jQuery.js"
+    ]
 }

@@ -8,24 +8,24 @@
         "file": "jquery.slicknav.js",
         "force": "0.0.1"
     },
-    "files": {
-        "js": [
-            "jquery.slicknav.js"
-        ],
-        "css": [
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "slicknav.css"
+                ]
+            },
+            "js": [
+                "jquery.slicknav.min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
             "slicknav.css"
         ]
     },
-    "variants": {
-        "minified": {
-            "files": {
-                "js": [
-                    "jquery.slicknav.min.js"
-                ],
-                "css": [
-                    "slicknav.css"
-                ]
-            }
-        }
-    }
+    "js": [
+        "jquery.slicknav.js"
+    ]
 }

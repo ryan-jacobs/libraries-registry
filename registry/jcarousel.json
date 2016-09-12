@@ -8,10 +8,8 @@
         "file": "dist\/jquery.jcarousel.js",
         "force": "0.3.0"
     },
-    "files": {
-        "js": [
-            "dist\/jquery.jcarousel.js",
-            "dist\/jquery.jcarousel-control.js"
-        ]
-    }
+    "js": [
+        "dist\/jquery.jcarousel.js",
+        "dist\/jquery.jcarousel-control.js"
+    ]
 }

@@ -7,24 +7,24 @@
         "file": "assets\/js\/jquery.formalize.js",
         "pattern": "\/Formalize - version ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "css": [
-            "assets\/css\/formalize.css"
-        ],
-        "js": [
-            "assets\/js\/jquery.formalize.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "assets\/js\/jquery.formalize.min.js"
-                ],
-                "css": [
+            "css": {
+                "base": [
                     "assets\/css\/formalize.css"
                 ]
-            }
+            },
+            "js": [
+                "assets\/js\/jquery.formalize.min.js"
+            ]
         }
-    }
+    },
+    "css": {
+        "base": [
+            "assets\/css\/formalize.css"
+        ]
+    },
+    "js": [
+        "assets\/js\/jquery.formalize.js"
+    ]
 }

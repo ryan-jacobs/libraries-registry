@@ -7,9 +7,7 @@
         "file": "dist\/masonry.pkgd.js",
         "pattern": "\/PACKAGED v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "dist\/masonry.pkgd.js"
-        ]
-    }
+    "js": [
+        "dist\/masonry.pkgd.js"
+    ]
 }

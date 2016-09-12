@@ -111,6 +111,41 @@ class ProcessingForm extends FormBase {
     $library_data = array('type' => 'asset') + $library_data;
     // Callbacks are likely no longer relevant.
     unset($library_data['callbacks']);
+    // Process files including variant support.
+    if (!empty($library_data['files'])) {
+      $this->convertFiles($library_name, $library_data);
+    }
+    if (!empty($library_data['variants'])) {
+      foreach ($library_data['variants'] as $variant_name => &$variant_data) {
+        $this->convertFiles($library_name, $variant_data);
+      }
+    }
+  }
+
+  /**
+   * Convert D7 files array to D8 structures.
+   *
+   * @param string $library_name
+   *   The machine name of the library.
+   * @param array $element
+   *   A library definition array element to test for files data and convert if
+   *   needed.
+   */
+  protected function convertFiles(&$library_name, array &$element) {
+    if (!empty($element['files'])) {
+      // Process CSS definitions.
+      if (!empty($element['files']['css'])) {
+        $element['css']['base'] = array(); // Assume base for modules
+        foreach ($element['files']['css'] as $file => $data) {
+          $element['css']['base'][$file] = $data;
+        }
+      }
+      // Process JS
+      if (!empty($element['files']['js'])) {
+        $element['js'] = $element['files']['js'];
+      }
+      unset($element['files']);
+    }
   }
 
   /**

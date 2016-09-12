@@ -8,9 +8,7 @@
         "file": "src\/respond.js",
         "force": "1"
     },
-    "files": {
-        "js": [
-            "src\/respond.js"
-        ]
-    }
+    "js": [
+        "src\/respond.js"
+    ]
 }

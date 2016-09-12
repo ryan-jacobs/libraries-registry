@@ -7,18 +7,14 @@
         "file": "js\/jquery.Jcrop.js",
         "pattern": "\/jquery.Jcrop.js v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "js\/jquery.Jcrop.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "js\/jquery.Jcrop.min.js"
-                ]
-            }
+            "js": [
+                "js\/jquery.Jcrop.min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "js\/jquery.Jcrop.js"
+    ]
 }

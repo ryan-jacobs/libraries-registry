@@ -7,18 +7,14 @@
         "file": "bower.js",
         "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "scripts\/bundled-uncompressed\/html4+html5\/jquery.history.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "scripts\/bundled\/html4+html5\/jquery.history.js"
-                ]
-            }
+            "js": [
+                "scripts\/bundled\/html4+html5\/jquery.history.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "scripts\/bundled-uncompressed\/html4+html5\/jquery.history.js"
+    ]
 }

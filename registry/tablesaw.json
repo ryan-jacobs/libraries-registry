@@ -7,24 +7,24 @@
         "file": "dist\/tablesaw.js",
         "pattern": "\/Tablesaw - v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "dist\/tablesaw.js"
-        ],
-        "css": [
+    "variants": {
+        "stackonly": {
+            "css": {
+                "base": [
+                    "dist\/tablesaw.stackonly.css"
+                ]
+            },
+            "js": [
+                "dist\/tablesaw.stackonly.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
             "dist\/tablesaw.css"
         ]
     },
-    "variants": {
-        "stackonly": {
-            "files": {
-                "js": [
-                    "dist\/tablesaw.stackonly.js"
-                ],
-                "css": [
-                    "dist\/tablesaw.stackonly.css"
-                ]
-            }
-        }
-    }
+    "js": [
+        "dist\/tablesaw.js"
+    ]
 }

@@ -9,24 +9,24 @@
         "lines": 3,
         "cols": 50
     },
-    "files": {
-        "js": [
-            "dist\/js\/bootstrap.js"
-        ],
-        "css": [
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "dist\/css\/bootstrap.min.css"
+                ]
+            },
+            "js": [
+                "dist\/js\/bootstrap.min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
             "dist\/css\/bootstrap.css"
         ]
     },
-    "variants": {
-        "minified": {
-            "files": {
-                "js": [
-                    "dist\/js\/bootstrap.min.js"
-                ],
-                "css": [
-                    "dist\/css\/bootstrap.min.css"
-                ]
-            }
-        }
-    }
+    "js": [
+        "dist\/js\/bootstrap.js"
+    ]
 }

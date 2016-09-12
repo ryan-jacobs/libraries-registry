@@ -7,18 +7,14 @@
         "file": "build\/jquery.cycle2.js",
         "pattern": "\/version: ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "build\/jquery.cycle2.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "build\/jquery.cycle2.min.js"
-                ]
-            }
+            "js": [
+                "build\/jquery.cycle2.min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "build\/jquery.cycle2.js"
+    ]
 }

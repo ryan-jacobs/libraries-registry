@@ -7,9 +7,7 @@
         "file": "jquery.hoverIntent.js",
         "pattern": "\/hoverIntent v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "jquery.hoverIntent.js"
-        ]
-    }
+    "js": [
+        "jquery.hoverIntent.js"
+    ]
 }

@@ -7,24 +7,24 @@
         "file": "script\/jquery.jscrollpane.js",
         "pattern": "\/jScrollPane - v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "script\/jquery.jscrollpane.js"
-        ],
-        "css": [
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "script\/jquery.jscrollpane.css"
+                ]
+            },
+            "js": [
+                "script\/jquery.jscrollpane.min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
             "script\/jquery.jscrollpane.css"
         ]
     },
-    "variants": {
-        "minified": {
-            "files": {
-                "js": [
-                    "script\/jquery.jscrollpane.min.js"
-                ],
-                "css": [
-                    "script\/jquery.jscrollpane.css"
-                ]
-            }
-        }
-    }
+    "js": [
+        "script\/jquery.jscrollpane.js"
+    ]
 }

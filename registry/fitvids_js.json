@@ -7,9 +7,7 @@
         "file": "jquery.fitvids.js",
         "pattern": "\/ FitVids ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "jquery.fitvids.js"
-        ]
-    }
+    "js": [
+        "jquery.fitvids.js"
+    ]
 }

@@ -7,12 +7,12 @@
         "file": "jquery.selectBox.js",
         "pattern": "\/\\* v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "jquery.selectBox.js"
-        ],
-        "css": [
+    "css": {
+        "base": [
             "jquery.selectBox.css"
         ]
-    }
+    },
+    "js": [
+        "jquery.selectBox.js"
+    ]
 }

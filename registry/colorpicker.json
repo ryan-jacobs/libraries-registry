@@ -8,12 +8,12 @@
         "file": "js\/colorpicker.js",
         "force": "1"
     },
-    "files": {
-        "css": [
+    "css": {
+        "base": [
             "css\/colorpicker.css"
-        ],
-        "js": [
-            "js\/colorpicker.js"
         ]
-    }
+    },
+    "js": [
+        "js\/colorpicker.js"
+    ]
 }

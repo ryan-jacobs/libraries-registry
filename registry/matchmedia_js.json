@@ -7,40 +7,36 @@
         "file": "bower.json",
         "pattern": "\/version\": \"([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": {
-            "matchMedia.js": {
-                "every_page": true,
-                "group": -100,
-                "preprocess": 0,
-                "scope": "header",
-                "type": "file",
-                "weight": -9999
+    "variants": {
+        "addListener": {
+            "js": {
+                "matchMedia.js": {
+                    "every_page": true,
+                    "group": -100,
+                    "preprocess": 0,
+                    "scope": "header",
+                    "type": "file",
+                    "weight": -9999
+                },
+                "matchMedia.addListener.js": {
+                    "every_page": true,
+                    "group": -100,
+                    "preprocess": 0,
+                    "scope": "header",
+                    "type": "file",
+                    "weight": -9998
+                }
             }
         }
     },
-    "variants": {
-        "addListener": {
-            "files": {
-                "js": {
-                    "matchMedia.js": {
-                        "every_page": true,
-                        "group": -100,
-                        "preprocess": 0,
-                        "scope": "header",
-                        "type": "file",
-                        "weight": -9999
-                    },
-                    "matchMedia.addListener.js": {
-                        "every_page": true,
-                        "group": -100,
-                        "preprocess": 0,
-                        "scope": "header",
-                        "type": "file",
-                        "weight": -9998
-                    }
-                }
-            }
+    "js": {
+        "matchMedia.js": {
+            "every_page": true,
+            "group": -100,
+            "preprocess": 0,
+            "scope": "header",
+            "type": "file",
+            "weight": -9999
         }
     }
 }

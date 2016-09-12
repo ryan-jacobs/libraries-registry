@@ -7,9 +7,7 @@
         "file": "src\/jquery.cookie.js",
         "pattern": "\/Cookie Plugin v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "src\/jquery.cookie.js"
-        ]
-    }
+    "js": [
+        "src\/jquery.cookie.js"
+    ]
 }

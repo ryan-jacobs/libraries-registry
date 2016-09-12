@@ -8,12 +8,10 @@
         "pattern": "\/Juicebox.([a-zA-Z]+[0-9\\.\\ -]+)\/",
         "lines": 5
     },
-    "files": {
-        "js": {
-            "juicebox.js": {
-                "preprocess": false,
-                "group": -100
-            }
+    "js": {
+        "juicebox.js": {
+            "preprocess": false,
+            "group": -100
         }
     }
 }

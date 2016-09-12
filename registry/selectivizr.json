@@ -7,9 +7,7 @@
         "file": "selectivizr.js",
         "pattern": "\/selectivizr v([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "selectivizr.js"
-        ]
-    }
+    "js": [
+        "selectivizr.js"
+    ]
 }

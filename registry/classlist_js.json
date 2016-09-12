@@ -8,18 +8,14 @@
         "file": "classList.js",
         "force": "1"
     },
-    "files": {
-        "js": [
-            "classList.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "classList.min.js"
-                ]
-            }
+            "js": [
+                "classList.min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "classList.js"
+    ]
 }

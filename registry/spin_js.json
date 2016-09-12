@@ -7,26 +7,20 @@
         "file": "component.json",
         "pattern": "\/\"version\": \"([@0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "spin.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "spin.min.js"
-                ]
-            }
+            "js": [
+                "spin.min.js"
+            ]
         },
         "jquery": {
-            "files": {
-                "js": [
-                    "spin.min.js",
-                    "jquery.spin.js"
-                ]
-            }
+            "js": [
+                "spin.min.js",
+                "jquery.spin.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "spin.js"
+    ]
 }

@@ -8,9 +8,7 @@
         "file": "json2.js",
         "force": "1"
     },
-    "files": {
-        "js": [
-            "json2.js"
-        ]
-    }
+    "js": [
+        "json2.js"
+    ]
 }

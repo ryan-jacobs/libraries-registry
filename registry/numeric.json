@@ -7,9 +7,7 @@
         "file": "jquery.numeric.js",
         "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "jquery.numeric.js"
-        ]
-    }
+    "js": [
+        "jquery.numeric.js"
+    ]
 }

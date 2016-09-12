@@ -7,24 +7,24 @@
         "file": "js\/jquery.flexnav.js",
         "pattern": "\/FlexNav.js ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "js\/jquery.flexnav.js"
-        ],
-        "css": [
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "css\/flexnav.css"
+                ]
+            },
+            "js": [
+                "js\/jquery.flexnav.min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
             "css\/flexnav.css"
         ]
     },
-    "variants": {
-        "minified": {
-            "files": {
-                "js": [
-                    "js\/jquery.flexnav.min.js"
-                ],
-                "css": [
-                    "css\/flexnav.css"
-                ]
-            }
-        }
-    }
+    "js": [
+        "js\/jquery.flexnav.js"
+    ]
 }

@@ -7,9 +7,7 @@
         "file": "dist\/jquery.browser.js",
         "pattern": "\/jQuery Browser Plugin ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "dist\/jquery.browser.js"
-        ]
-    }
+    "js": [
+        "dist\/jquery.browser.js"
+    ]
 }

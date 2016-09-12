@@ -7,9 +7,7 @@
         "file": "jquery.newsTicker-2.3.6.js",
         "pattern": "\/version ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "jquery.newsTicker-2.3.6.js"
-        ]
-    }
+    "js": [
+        "jquery.newsTicker-2.3.6.js"
+    ]
 }

@@ -8,18 +8,14 @@
         "file": "js\/onmediaquery.js",
         "force": "1"
     },
-    "files": {
-        "js": [
-            "js\/onmediaquery.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "js\/onmediaquery.min.js"
-                ]
-            }
+            "js": [
+                "js\/onmediaquery.min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "js\/onmediaquery.js"
+    ]
 }

@@ -8,18 +8,14 @@
         "pattern": "\/Underscore.js ([0-9a-zA-Z\\.-]+)\/",
         "lines": 1
     },
-    "files": {
-        "js": [
-            "underscore.js"
-        ]
-    },
     "variants": {
         "minified": {
-            "files": {
-                "js": [
-                    "underscore-min.js"
-                ]
-            }
+            "js": [
+                "underscore-min.js"
+            ]
         }
-    }
+    },
+    "js": [
+        "underscore.js"
+    ]
 }

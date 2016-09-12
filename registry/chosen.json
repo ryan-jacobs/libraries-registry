@@ -7,24 +7,24 @@
         "file": "chosen.jquery.js",
         "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
     },
-    "files": {
-        "js": [
-            "chosen.jquery.js"
-        ],
-        "css": [
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "chosen.css"
+                ]
+            },
+            "js": [
+                "chosen.jquery.min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
             "chosen.css"
         ]
     },
-    "variants": {
-        "minified": {
-            "files": {
-                "js": [
-                    "chosen.jquery.min.js"
-                ],
-                "css": [
-                    "chosen.css"
-                ]
-            }
-        }
-    }
+    "js": [
+        "chosen.jquery.js"
+    ]
 }
