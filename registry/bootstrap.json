@@ -3,12 +3,6 @@
     "name": "Twitter Bootstrap",
     "vendor url": "http:\/\/twitter.github.com",
     "download url": "http:\/\/twitter.github.com\/bootstrap\/assets\/bootstrap.zip",
-    "version arguments": {
-        "file": "dist\/css\/bootstrap.css",
-        "pattern": "\/Bootstrap v([0-9a-zA-Z\\.-]+)\/",
-        "lines": 3,
-        "cols": 50
-    },
     "variants": {
         "minified": {
             "css": {
@@ -28,5 +22,14 @@
     },
     "js": [
         "dist\/js\/bootstrap.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "dist\/css\/bootstrap.css",
+            "pattern": "\/Bootstrap v([0-9a-zA-Z\\.-]+)\/",
+            "lines": 3,
+            "columns": 50
+        }
+    }
 }

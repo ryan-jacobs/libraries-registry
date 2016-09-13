@@ -3,10 +3,6 @@
     "name": "jQuery Qtip2",
     "vendor url": "https:\/\/github.com\/Craga89\/qTip2",
     "download url": "https:\/\/github.com\/Craga89\/qTip2\/zipball\/master",
-    "version arguments": {
-        "file": "jquery.qtip.js",
-        "pattern": "\/Pretty powerful tooltips - v([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "minified": {
             "css": {
@@ -26,5 +22,12 @@
     },
     "js": [
         "jquery.qtip.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "jquery.qtip.js",
+            "pattern": "\/Pretty powerful tooltips - v([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

@@ -3,10 +3,6 @@
     "name": "HTML5-History-API",
     "vendor url": "https:\/\/github.com\/devote\/HTML5-History-API",
     "download url": "https:\/\/github.com\/devote\/HTML5-History-API\/zipball\/master",
-    "version arguments": {
-        "file": "package.json",
-        "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "minified": {
             "js": [
@@ -16,5 +12,12 @@
     },
     "js": [
         "history.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "package.json",
+            "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

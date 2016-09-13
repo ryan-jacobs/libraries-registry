@@ -3,11 +3,6 @@
     "name": "colorpicker",
     "vendor url": "http:\/\/www.eyecon.ro\/colorpicker",
     "download url": "http:\/\/www.eyecon.ro\/colorpicker\/colorpicker.zip",
-    "version callback": "_library_pack_force_version",
-    "version arguments": {
-        "file": "js\/colorpicker.js",
-        "force": "1"
-    },
     "css": {
         "base": [
             "css\/colorpicker.css"
@@ -15,5 +10,11 @@
     },
     "js": [
         "js\/colorpicker.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "1"
+        }
+    }
 }

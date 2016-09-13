@@ -3,11 +3,14 @@
     "name": "jquery.numeric.js",
     "vendor url": "http:\/\/www.texotela.co.uk\/code\/jquery\/numeric\/",
     "download url": "https:\/\/github.com\/SamWM\/jQuery-Plugins\/tree\/master\/numeric",
-    "version arguments": {
-        "file": "jquery.numeric.js",
-        "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
-    },
     "js": [
         "jquery.numeric.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "jquery.numeric.js",
+            "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

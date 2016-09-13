@@ -3,10 +3,6 @@
     "name": "jQuery flexnav",
     "vendor url": "https:\/\/github.com\/indyplanets\/flexnav",
     "download url": "https:\/\/github.com\/indyplanets\/flexnav",
-    "version arguments": {
-        "file": "js\/jquery.flexnav.js",
-        "pattern": "\/FlexNav.js ([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "minified": {
             "css": {
@@ -26,5 +22,12 @@
     },
     "js": [
         "js\/jquery.flexnav.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "js\/jquery.flexnav.js",
+            "pattern": "\/FlexNav.js ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

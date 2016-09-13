@@ -3,10 +3,6 @@
     "name": "Spin JS",
     "vendor url": "https:\/\/github.com\/fgnass\/spin.js",
     "download url": "https:\/\/github.com\/fgnass\/spin.js",
-    "version arguments": {
-        "file": "component.json",
-        "pattern": "\/\"version\": \"([@0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "minified": {
             "js": [
@@ -22,5 +18,12 @@
     },
     "js": [
         "spin.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "component.json",
+            "pattern": "\/\"version\": \"([@0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

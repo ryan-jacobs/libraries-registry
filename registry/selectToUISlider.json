@@ -3,11 +3,6 @@
     "name": "jQuery Select To UI Slider",
     "vendor url": "http:\/\/www.filamentgroup.com\/examples\/slider_v2\/FilamentGroup_selectToUISlider.zip",
     "download url": "http:\/\/www.filamentgroup.com\/examples\/slider_v2\/FilamentGroup_selectToUISlider.zip",
-    "version callback": "_library_pack_force_version",
-    "version arguments": {
-        "file": "js\/selectToUISlider.jQuery.js",
-        "force": "1.0"
-    },
     "css": {
         "base": [
             "css\/ui.slider.extras.css"
@@ -15,5 +10,11 @@
     },
     "js": [
         "js\/selectToUISlider.jQuery.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "1.0"
+        }
+    }
 }

@@ -3,10 +3,6 @@
     "name": "jQuery Cycle2",
     "vendor url": "http:\/\/jquery.malsup.com\/cycle2",
     "download url": "http:\/\/jquery.malsup.com\/cycle2\/download\/",
-    "version arguments": {
-        "file": "build\/jquery.cycle2.js",
-        "pattern": "\/version: ([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "minified": {
             "js": [
@@ -16,5 +12,12 @@
     },
     "js": [
         "build\/jquery.cycle2.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "build\/jquery.cycle2.js",
+            "pattern": "\/version: ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

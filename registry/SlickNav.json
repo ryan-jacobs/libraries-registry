@@ -3,11 +3,6 @@
     "name": "jQuery slicknav",
     "vendor url": "https:\/\/github.com\/ComputerWolf\/SlickNav",
     "download url": "https:\/\/github.com\/ComputerWolf\/SlickNav",
-    "version callback": "_library_pack_force_version",
-    "version arguments": {
-        "file": "jquery.slicknav.js",
-        "force": "0.0.1"
-    },
     "variants": {
         "minified": {
             "css": {
@@ -27,5 +22,11 @@
     },
     "js": [
         "jquery.slicknav.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "0.0.1"
+        }
+    }
 }

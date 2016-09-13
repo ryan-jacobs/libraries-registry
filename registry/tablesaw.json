@@ -3,10 +3,6 @@
     "name": "Tablesaw",
     "vendor url": "https:\/\/github.com\/filamentgroup\/tablesaw",
     "download url": "https:\/\/github.com\/filamentgroup\/tablesaw",
-    "version arguments": {
-        "file": "dist\/tablesaw.js",
-        "pattern": "\/Tablesaw - v([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "stackonly": {
             "css": {
@@ -26,5 +22,12 @@
     },
     "js": [
         "dist\/tablesaw.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "dist\/tablesaw.js",
+            "pattern": "\/Tablesaw - v([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

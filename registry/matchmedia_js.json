@@ -3,10 +3,6 @@
     "name": "matchMedia.js",
     "vendor url": "https:\/\/github.com\/paulirish\/matchMedia.js",
     "download url": "https:\/\/github.com\/paulirish\/matchMedia.js",
-    "version arguments": {
-        "file": "bower.json",
-        "pattern": "\/version\": \"([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "addListener": {
             "js": {
@@ -37,6 +33,13 @@
             "scope": "header",
             "type": "file",
             "weight": -9999
+        }
+    },
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "bower.json",
+            "pattern": "\/version\": \"([0-9a-zA-Z\\.-]+)\/"
         }
     }
 }

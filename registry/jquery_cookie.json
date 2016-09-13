@@ -3,11 +3,14 @@
     "name": "jQuery Cookie",
     "vendor url": "https:\/\/github.com\/carhartl\/jquery-cookie",
     "download url": "https:\/\/github.com\/carhartl\/jquery-cookie\/archive\/master.zip",
-    "version arguments": {
-        "file": "src\/jquery.cookie.js",
-        "pattern": "\/Cookie Plugin v([0-9a-zA-Z\\.-]+)\/"
-    },
     "js": [
         "src\/jquery.cookie.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "src\/jquery.cookie.js",
+            "pattern": "\/Cookie Plugin v([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }

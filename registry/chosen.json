@@ -3,10 +3,6 @@
     "name": "jQuery Chosen",
     "vendor url": "http:\/\/harvesthq.github.com\/chosen\/",
     "download url": "https:\/\/github.com\/harvesthq\/chosen\/releases\/latest",
-    "version arguments": {
-        "file": "chosen.jquery.js",
-        "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
-    },
     "variants": {
         "minified": {
             "css": {
@@ -26,5 +22,12 @@
     },
     "js": [
         "chosen.jquery.js"
-    ]
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "chosen.jquery.js",
+            "pattern": "\/Version ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
 }
