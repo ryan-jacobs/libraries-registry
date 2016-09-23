@@ -1,0 +1,20 @@
+{
+    "type": "asset",
+    "name": "colorpicker",
+    "vendor url": "http:\/\/www.eyecon.ro\/colorpicker",
+    "download url": "http:\/\/www.eyecon.ro\/colorpicker\/colorpicker.zip",
+    "css": {
+        "base": [
+            "css\/colorpicker.css"
+        ]
+    },
+    "js": [
+        "js\/colorpicker.js"
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "1"
+        }
+    }
+}

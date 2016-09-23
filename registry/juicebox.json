@@ -1,0 +1,20 @@
+{
+    "type": "asset",
+    "name": "Juicebox",
+    "vendor url": "http:\/\/www.juicebox.net\/",
+    "download url": "http:\/\/www.juicebox.net\/download\/",
+    "js": {
+        "juicebox.js": {
+            "preprocess": false,
+            "group": -100
+        }
+    },
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "juicebox.js",
+            "pattern": "\/Juicebox.([a-zA-Z]+[0-9\\.\\ -]+)\/",
+            "lines": 5
+        }
+    }
+}

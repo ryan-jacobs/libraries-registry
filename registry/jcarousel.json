@@ -1,0 +1,16 @@
+{
+    "type": "asset",
+    "name": "jQuery jcarousel",
+    "vendor url": "http:\/\/sorgalla.com\/jcarousel\/",
+    "download url": "https:\/\/github.com\/jsor\/jcarousel",
+    "js": [
+        "dist\/jquery.jcarousel.js",
+        "dist\/jquery.jcarousel-control.js"
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "0.3.0"
+        }
+    }
+}

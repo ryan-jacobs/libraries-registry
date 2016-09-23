@@ -1,0 +1,18 @@
+{
+    "type": "asset",
+    "name": "Normalize CSS",
+    "vendor url": "https:\/\/github.com\/necolas\/normalize.css\/",
+    "download url": "https:\/\/github.com\/necolas\/normalize.css\/",
+    "css": {
+        "base": [
+            "normalize.css"
+        ]
+    },
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "normalize.css",
+            "pattern": "\/normalize.css v([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}

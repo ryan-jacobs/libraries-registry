@@ -1,0 +1,16 @@
+{
+    "type": "asset",
+    "name": "jQuery Appear",
+    "vendor url": "https:\/\/github.com\/morr\/jquery.appear",
+    "download url": "https:\/\/github.com\/morr\/jquery.appear\/archive\/master.zip",
+    "js": [
+        "jquery.appear.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "jquery.appear.js",
+            "pattern": "\/Version: ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}

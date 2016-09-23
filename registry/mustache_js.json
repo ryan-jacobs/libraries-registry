@@ -1,0 +1,23 @@
+{
+    "type": "asset",
+    "name": "mustache.js",
+    "vendor url": "https:\/\/github.com\/janl\/mustache.js",
+    "download url": "https:\/\/github.com\/janl\/mustache.js",
+    "variants": {
+        "minified": {
+            "js": [
+                "mustache.min.js"
+            ]
+        }
+    },
+    "js": [
+        "mustache.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "package.json",
+            "pattern": "\/\"version\": \"([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}

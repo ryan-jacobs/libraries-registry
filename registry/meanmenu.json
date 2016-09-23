@@ -1,0 +1,33 @@
+{
+    "type": "asset",
+    "name": "meanMenu",
+    "vendor url": "https:\/\/github.com\/meanthemes\/meanMenu",
+    "download url": "https:\/\/github.com\/meanthemes\/meanMenu",
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "meanmenu.min.css"
+                ]
+            },
+            "js": [
+                "jquery.meanmenu.min.js"
+            ]
+        }
+    },
+    "css": {
+        "base": [
+            "meanmenu.css"
+        ]
+    },
+    "js": [
+        "jquery.meanmenu.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "jquery.meanmenu.js",
+            "pattern": "\/v([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}

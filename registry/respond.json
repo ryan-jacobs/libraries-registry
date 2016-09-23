@@ -1,0 +1,15 @@
+{
+    "type": "asset",
+    "name": "Respond",
+    "vendor url": "https:\/\/github.com\/scottjehl\/Respond",
+    "download url": "https:\/\/github.com\/scottjehl\/Respond",
+    "js": [
+        "src\/respond.js"
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "1"
+        }
+    }
+}

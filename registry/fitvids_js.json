@@ -1,0 +1,16 @@
+{
+    "type": "asset",
+    "name": "FtiVids JS",
+    "vendor url": "http:\/\/fitvidsjs.com",
+    "download url": "https:\/\/github.com\/davatron5000\/FitVids.js",
+    "js": [
+        "jquery.fitvids.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "jquery.fitvids.js",
+            "pattern": "\/ FitVids ([0-9a-zA-Z\\.-]+)\/"
+        }
+    }
+}

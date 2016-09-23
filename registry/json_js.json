@@ -1,0 +1,15 @@
+{
+    "type": "asset",
+    "name": "JSON-js",
+    "vendor url": "http:\/\/github.com\/douglascrockford\/JSON-js",
+    "download url": "http:\/\/github.com\/douglascrockford\/JSON-js",
+    "js": [
+        "json2.js"
+    ],
+    "version_detector": {
+        "id": "static",
+        "configuration": {
+            "version": "1"
+        }
+    }
+}
