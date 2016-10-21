@@ -76,7 +76,7 @@ class ProcessingForm extends FormBase {
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
     // Loop through libraries_info hooks, serialize, and save to
-    // library-registry stream wrapper.
+    // libraries-registry stream wrapper.
     $libraries_info = $this->moduleManager->invokeAll('libraries_info');
     $saved_count = 0;
     foreach ($libraries_info as $library_name => $data) {
@@ -85,7 +85,7 @@ class ProcessingForm extends FormBase {
       if ($serialized) {
         $this->postSerializeAlter($library_name, $serialized);
         $filename = $library_name . '.json';
-        $saved_path = file_unmanaged_save_data($serialized, 'library-registry://' . $filename, FILE_EXISTS_REPLACE);
+        $saved_path = file_unmanaged_save_data($serialized, 'libraries-registry://' . $filename, FILE_EXISTS_REPLACE);
         $saved_count += !empty($saved_path);
       }
     }

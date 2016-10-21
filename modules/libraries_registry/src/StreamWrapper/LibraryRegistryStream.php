@@ -54,7 +54,12 @@ class LibraryRegistryStream extends LocalStream {
    * {@inheritdoc}
    */
   public function getDirectoryPath() {
-    $path = drupal_get_path('module', 'libraries_registry') . '/../../registry';
+    // The registry is actually part of the module, so we define this stream
+    // wrapper relative to it. This of course means that a user would need the
+    // appropraite (and non-typical) web-server write permissions on this
+    // directory. This is certainly not best/standard practice, but this is only
+    // for development use cases.
+    $path = drupal_get_path('module', 'libraries_registry') . '/../../registry/8';
     return $path;
   }
 
