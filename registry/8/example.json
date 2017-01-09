@@ -1,0 +1,35 @@
+{
+    "name": "Example Library",
+    "type": "asset",
+    "vendor url": "http:\/\/example.com",
+    "download url": "http:\/\/example.com\/download\/example.zip",
+    "css": {
+        "base": [
+            "css\/example-styles.css"
+        ]
+    },
+    "js": [
+        "js\/example-logic.js"
+    ],
+    "version_detector": {
+        "id": "line_pattern",
+        "configuration": {
+            "file": "js\/example-logic.css",
+            "pattern": "\/Example Library v([0-9a-zA-Z\\.-]+)\/",
+            "lines": 3,
+            "columns": 50
+        }
+    },
+    "variants": {
+        "minified": {
+            "css": {
+                "base": [
+                    "css\/example-styles.min.css"
+                ]
+            },
+            "js": [
+                "js\/example-logic.min.js"
+            ]
+        }
+    }
+}
